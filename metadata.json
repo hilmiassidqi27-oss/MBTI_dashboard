@@ -1,0 +1,6 @@
+{
+  "name": "PT. Dian Pandu Pratama - MBTI Assessment",
+  "description": "Corporate MBTI personality profiling and candidate assessment platform for PT. Dian Pandu Pratama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
