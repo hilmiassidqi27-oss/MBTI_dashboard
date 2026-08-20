@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "submissions": {
+      "title": "Submissions",
+      "description": "Assessment submissions for corporate MBTI profiling",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "nik": { "type": "string" },
+        "position": { "type": "string" },
+        "area": { "type": "string" },
+        "email": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "mbti": { "type": "string" },
+        "percentages": { "type": "object" },
+        "rawScores": { "type": "object" },
+        "timestamp": { "type": "number" },
+        "formattedDate": { "type": "string" }
+      },
+      "required": ["id", "name", "nik", "mbti", "timestamp"]
+    }
+  }
+}
